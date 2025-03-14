@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-crud-node",
+  "version": "0.0.1",
+  "description": "realizare un crud empleando node.js como entorno de ejecución, empleare la librería express y como base de datso mongoDB",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "Erwin solarte suarez",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "env-var": "^7.5.0",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1"
+  }
+}
